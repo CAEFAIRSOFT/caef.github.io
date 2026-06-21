@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAEF</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #2b2c28; /* Dark olive tone */
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a1a18;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 4px solid #b85e26; /* Copper highlight matching the patch */
+        }
+        header img {
+            max-width: 220px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 10px 0;
+            color: #b85e26; /* Copper tone */
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 2.2em;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #8c9282; /* Sage/olive accent */
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .about {
+            text-align: center;
+            margin-bottom: 60px;
+            line-height: 1.8;
+            font-size: 1.15em;
+            background-color: #33342f;
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid #8c9282;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        h3.section-title {
+            text-align: center;
+            color: #b85e26;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #444;
+            display: inline-block;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            border: 2px solid #4a4a4a;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: translateY(-5px);
+            border-color: #b85e26;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #1a1a18;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9em;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="CAEFPatch Logo.jpg" alt="CAEF Copperheads Logo">
+    <h1>Carolina Airsoft Expeditionary Force</h1>
+    <h2>"Copperheads"</h2>
+</header>
+
+<div class="container">
+    <section class="about">
+        <p>Welcome to the official homepage of the <strong>Carolina Airsoft Expeditionary Force (CAEF)</strong>. We are based in southeastern North Carolina</p>
+    </section>
+
+    <h3 class="section-title">Gallery</h3>
+    <section class="gallery">
+        <img src="561622244_122165733596585151_7293488691756668291_n.jpg" alt="CAEF Team Group Photo">
+        <img src="558973071_122165733194585151_2686281198300032266_n.jpg" alt="CAEF Member Ready">
+        <img src="564124931_122165733164585151_9171428507421936254_n.jpg" alt="CAEF Member at Bunker">
+    </section>
+</div>
+
+<footer>
+    &copy; 2026 Carolina Airsoft Expeditionary Force (CAEF) - Copperheads. All rights reserved.
+</footer>
+
+</body>
+</html>
